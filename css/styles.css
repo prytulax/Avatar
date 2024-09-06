@@ -1,4 +1,20 @@
-
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "HeadlandOne", sans-serif;
+    --third-family: "Hammersmith One", sans-serif;
+  }
+container{
+    display: flex;
+    margin-right: 10px;
+}
+.trailer-text{
+    border: 2px solid #26c7ea;
+    border-radius: 35px 0;
+    width: 141px;
+    height: 41px;
+    background-color:  #0b0e66;
+    color: #26c6ea;
+}
 button{
     border: 2px solid #26c7ea;
     border-radius: 35px 0;
