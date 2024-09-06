@@ -1,25 +1,186 @@
+/* border: 2px solid #26c7ea;
+border-radius: 35px 0;
+width: 141px;
+height: 41px;
+background-color: #0b0e66;
+color: #26c6ea
+кнопка увійти */
 :root {
     --font-family: "Inter", sans-serif;
     --second-family: "HeadlandOne", sans-serif;
     --third-family: "Hammersmith One", sans-serif;
-  }
-container{
+}
+.body {
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+.container {
     display: flex;
-    margin-right: 10px;
+    width: 1440px;
 }
-.trailer-text{
-    border: 2px solid #26c7ea;
-    border-radius: 35px 0;
-    width: 141px;
-    height: 41px;
-    background-color:  #0b0e66;
-    color: #26c6ea;
+.header {
+    background-image: url(../images/man-on-bird.jpg);
+    background-repeat: no-repeat;
 }
-button{
-    border: 2px solid #26c7ea;
-    border-radius: 35px 0;
-    width: 141px;
-    height: 41px;
-    background-color:  #0b0e66;
-    color: #26c6ea;
+.menu-link {
+font-family: var(--font-family);
+font-weight: 300;
+font-size: 20px;
+text-align: center;
+color: #fff;
+}
+.login {
+border: 2px solid #26c7ea;
+border-radius: 35px 0;
+width: 141px;
+height: 41px;
+background-color: #0b0e66;
+color: #26c6ea
+}
+.main-big-text {
+    background-image: url(../images/man.jpg);
+    background-repeat: no-repeat;
+}
+.main-big-text-their {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+color: #fff;
+}
+.main-big-text-our {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+color: #fff;
+}
+.join {
+border: 3px solid #26c7ea;
+border-radius: 45px 0;
+width: 260px;
+height: 80px;
+background: #0b0e66;
+color: #26c7ea;
+}
+.first-sentence {
+    background-image: url(../images/birdandtwosticks.jpg);
+    background-repeat: no-repeat;
+}
+.first-sentence-title {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-align: justify;
+color: #0a3853;
+}
+.first-sentence-text {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #000;
+}
+.trailer {
+    background-image: url(../images/women.jpg);
+    background-repeat: no-repeat;
+}
+.trailer-text {
+border: 3px solid #26c7ea;
+border-radius: 45px 0;
+width: 260px;
+height: 80px;
+background: #0b0e66;
+color: #26c7ea;
+}
+.second-sentence {
+    background-image: url(../images/birdandtwosticks.jpg);
+    background-repeat: no-repeat;
+}
+.second-sentence-title {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-align: justify;
+color: #141414;
+}
+.second-sentence-text {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+text-align: justify;
+color: #000;
+}
+.learning {
+    background-image: url(../images/lifting-world.jpg);
+    background-repeat: no-repeat;
+}
+.learning-title {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 32px;
+text-align: justify;
+color: #141414;
+}
+.learning-list-our {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+text-align: justify;
+color: #141414;
+}
+.learning-list-their {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+text-align: justify;
+color: #000;
+}
+.learning-list-left {
+    background-image: url(../images/arrow-left.jpg);
+    background-repeat: no-repeat;
+}
+.learning-list-right {
+    background-image: url(../images/arrow-right.jpg);
+    background-repeat: no-repeat;
+}
+.learning-list-center {
+    background-image: url(../images/bird-and-two-arrows.jpg);
+    background-repeat: no-repeat;
+}
+.sentence-three {
+    background-image: url(../images/bird-and-two-arrows.jpg);
+    background-repeat: no-repeat;
+}
+.sentence-three-title{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-align: justify;
+color: #141414;
+}
+.third-sentence-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+text-align: justify;
+color: #000;
+}
+.footer {
+    background-image: url(../images/man-on-bird.jpg);
+    background-repeat: no-repeat;
+}
+.footer-list {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-align: justify;
+color: #fff;
+}
+.footer-copyright {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+text-align: justify;
+color: #fff;
 }
