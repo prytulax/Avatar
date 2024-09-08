@@ -11,12 +11,14 @@
 .container {
     display: flex;
     width: 1440px;
+    
 }
 .header {
     background-image:linear-gradient(90deg,rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87 )), url(/images/man-on-bird.jpg);
     background-repeat: no-repeat;border-bottom: 3px solid #fff;
     width: 1440px;
     height: 150px;
+    padding: ;
 }
 
 .header-button{
@@ -32,8 +34,33 @@ text-align: justify;
 color: #26c6ea;
 padding: 8px 38px;
 }
+.header-lists{
+    padding: 63px 558px;
+    width: 325px;
+    height: 24px; 
+    
+}
+.switcher{
+    width: 107px;
+    height: 20px;
+    padding: 65px;
+}
+.header-language{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #fff;
+
+}
 .main{
     
+}
+.social-networks{
+    width: 50px;
+height: 141px;
+padding: 300px;
+margin-left: 201px;
 }
 .main-big-text{
     background-image: url(/images/man.jpg);
@@ -50,6 +77,14 @@ color: #0a3853;
     width: 1440px;
     height: 350px; 
     padding: 219px 183px;
+}
+.sentence-one-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #000;
+
 }
 .sentence-two{
     width: 1442px;
@@ -114,4 +149,19 @@ padding: 25px 20px;
 .footer-logo{
     width: 183px;
     height: 70px;
+
+}
+.footer-lists{
+    border: 2px solid #fff;
+    width: 153px;
+    height: 0px;
+}
+
+.copyright{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    color: #fff; 
+
 }
