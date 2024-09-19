@@ -6,7 +6,8 @@
 }
 .body {
     font-family: var(--font-family);
-    font-weight: 400;margin: 0 auto;
+    font-weight: 400;
+    margin: 0 auto;
     max-width: 1440px;
 }
 .container {
@@ -15,73 +16,86 @@
     padding-right: 15px;
     margin: 0 auto;
 }
-    
+.container-header {
+    width: 1440px;
+    display: flex;
+    padding-left: 204px;
+    padding-right: 48px;
+    align-items: center;
+}
 
 .header {
-    background-image:linear-gradient(90deg,rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87 )), url(/images/man-on-bird.jpg);
-    background-repeat: no-repeat;border-bottom: 3px solid #fff;
-    width: 1440px;
-    height: 150px;
-}
-
-.header-button{
-border: 2px solid #26c7ea;
-border-radius: 35px 0;
-width: 141px;
-height: 41px;
-background-color: #0b0e66;
-font-family: var(--second-family);
-font-weight: 400;
-font-size: 20px;
-text-align: justify;
-color: #26c6ea;
-padding: 8px 38px;
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 .header-lists{
-    font-weight: 300;
-    font-size: 20px;
-    text-align: center;
-    color: #fff;
-    
+    display: flex;
+    column-gap: 38px;
 }
-.switcher{
-    width: 107px;
-    height: 20px;
-    padding: 65px;
-}
-.header-language{
-    font-family: var(--third-family);
-font-weight: 400;
-font-size: 16px;
+.header-list {
+font-weight: 300;
+font-size: 20px;
 text-align: center;
 color: #fff;
-
 }
-.main{
-    ma
+.header-button {
+    border: 2px solid #26c7ea;
+    border-radius: 35px 0;
+    width: 141px;
+    height: 41px;
+    background-color: #0b0e66;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: #26c6ea;
+    padding: 8px 38px;
 }
-.social-networks{
-    width: 50px;
-height: 141px;
-padding: 300px;
-margin-left: 201px;
+.main {
+    margin: 0 auto;
 }
-.main-big-text{
-    background-image: url(/images/man.jpg);
+.main-big-text {
+    background-image: url(../images/man.jpg);
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 740px;
+    background-position: center;
+    margin: 0 auto;
+height: 730px;
+padding-top: 180px;
 }
-.sentence-one{
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 36px;
-text-align: justify;
-color: #0a3853;
-    width: 1440px;
-    height: 350px; 
-    padding: 219px 183px;
-    background-image: url(../images/birdandtwosticks.png);
+.main-position{
+    display: flex;
+    justify-content: space-between;
+}
+.main-big-text-their {
+font-size: 20px;
+color: #fff;
+}
+.main-big-text-our {
+font-size: 20px;
+color: #fff;
+}
+.join-to-clan {
+    border: 2px solid #26c7ea;
+    border-radius: 35px 0;
+    width: 260px;
+    height: 80px;
+    background-color: #0b0e66;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #26c6ea;
+    padding: 8px 38px;
+}
+.social-networks-item {
+    margin-top: 24px;
+    margin-bottom: 27px;
+}
+.sentence-one {
+    background-image: url(../images/bird-and-two-arrows.png);
     background-repeat: no-repeat;
     margin: 0 auto;
     height: 350px;
@@ -92,50 +106,30 @@ color: #0a3853;
     padding-bottom: 10px;
     background-position: center 220px;
 }
-.sentence-one-text{
-    font-family: var(--font-family);
+.sentence-one-title {
+font-size: 36px;
 font-weight: 400;
+text-align: justify;
+color: #0a3853;
+    margin: 0 auto;
+    text-align: center;
+}
+.sentence-one-text {
 font-size: 24px;
 text-align: center;
 color: #000;
-
 }
-.sentence-two{
-    width: 1442px;
-    height: 350px;
-}
-.sentence-three{
-    width: 1438px;
-    height: 350px;
-}
-.trailer{
-    background-image: url(/images/women.jpg);
+.trailer {
+    background-image: url(../images/women.jpg);
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 740px;
-    padding: 330px 590px;
-
+    background-position: center;
+    margin: 0 auto;
+    height: 731px;
+    padding-top: 330px;
+    padding-bottom: 330px;
+    
 }
-.main-big-text-their{
-
-}
-.join-to-clan{
-border: 2px solid #26c7ea;
-border-radius: 35px 0;
-width: 260px;
-height: 80px;
-background-color: #0b0e66;
-font-family: var(--second-family);
-font-weight: 400;
-font-size: 24px;
-text-align: center;
-color: #26c7ea;
-padding: 10px 30px;
-}
-
-
-
-.trailer-text{
+.trailer-text {
 border: 2px solid #26c7ea;
 border-radius: 35px 0;
 width: 260px;
@@ -148,34 +142,139 @@ text-align: justify;
 color: #26c7ea;
 padding: 25px 20px;
 }
-.learning{
-    background-image: url(/images/lifting-world.jpg);
+    
+
+.sentence-two {
+    background-image: url(../images/bird-and-two-arrows.png);
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 741px;
+    margin: 0 auto;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    background-position: center 220px;
 }
-.footer{
-    background-image:linear-gradient(90deg,rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87 )), url(/images/man-on-bird.jpg);
+.sentence-two-title {
+font-size: 36px;
+font-weight: 400;
+text-align: justify;
+color: #141414;
+    margin: 0 auto;
+    text-align: center;
+}
+.sentence-two-text {
+font-size: 24px;
+text-align: center;
+color: #000;
+}
+.learning {
+    background-image: url(../images/lifting-world.jpg);
     background-repeat: no-repeat;
-    width: 1440px;
+    background-position: center;
+    margin: 0 auto;
+    height: 704px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.learning-lists {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.learning-title {
+    font-family: var(--second-family);
+font-size: 32px;
+text-align: justify;
+color: #141414;
+margin-bottom: 30px;
+text-align: center;
+}
+.learning-list-our {
+    font-family: var(--second-family);
+font-size: 24px;
+line-height: 100%;
+text-align: justify;
+color: #141414;
+}
+.learning-list-their {
+    font-family: var(--second-family);
+font-size: 24px;
+line-height: 100%;
+text-align: justify;
+color: #000;
+margin: 0 auto;
+}
+.learning-list-left {
+    background-image: url(../images/arrow-left.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: calc((100% - 60px) / 3);
+}
+.learning-list-right {
+    background-image: url(../images/arrow-right.png);
+    background-repeat: no-repeat;
+        padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: calc((100% - 60px) / 3);
+}
+.learning-list-center {
+    background-image: url(../images/bird-and-two-arrows.png);
+    background-repeat: no-repeat;
+        padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: calc((100% - 60px) / 3);
+}
+.sentence-three {
+    background-image: url(../images/bird-and-two-arrows.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    background-position: center 220px;
+}
+.sentence-three-title{
+font-size: 36px;
+text-align: justify;
+color: #141414;
+    margin: 0 auto;
+    text-align: center
+}
+.sentence-three-text {
+font-size: 24px;
+text-align: center;
+color: #000;
+}
+.footer {
+    background-image: url(../images/man-on-bird.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
     height: 223px;
 }
-.footer-logo{
-    width: 183px;
-    height: 70px;
-
+.footer-lists {
+font-size: 20px;
+text-align: justify;
+color: #fff;
 }
-.footer-lists{
-    border: 2px solid #fff;
-    width: 153px;
-    height: 0px;
-}
-
 .copyright{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     text-align: justify;
-    color: #fff; 
+    color: #000000; 
 
 }
