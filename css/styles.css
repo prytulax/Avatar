@@ -138,9 +138,7 @@ padding-top: 180px;
 font-size: 20px;
 color: #fff;
 }
-.main-big-text-their::after{
 
-}
 .main-big-text-our {
 font-size: 20px;
 color: #fff;
@@ -256,85 +254,110 @@ margin: 0 auto;
      */
 .learning-title {
     font-family: var(--second-family);
-font-size: 32px;
-text-align: justify;
-color: #141414;
-margin-bottom: 45px;
-text-align: center;
+    font-size: 32px;
+    text-align: justify;
+    color: #141414;
+    margin-bottom: 45px;    
+    text-align: center;
 }
 .learning-list-our {
     font-family: var(--second-family);
-font-size: 24px;
-line-height: 100%;
-text-align: center;
-color: #141414;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #141414;
 }
 
 .learning-list-their {
     font-family: var(--second-family);
-font-size: 24px;
-line-height: 100%;
-text-align: justify;
-color: #000;
-margin: 0 auto;
-}
-.learning-list-left {
-    background-image: url(../images/arrow-left.png);
-    background-repeat: no-repeat;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-basis: calc((100% - 60px) / 3);
-}
-.learning-list-right {
-    background-image: url(../images/arrow-right.png);
-    background-repeat: no-repeat;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-basis: calc((100% - 60px) / 3);
-}
-.learning-list-center {
-    background-image: url(../images/bird-and-two-arrows.png);
-    background-repeat: no-repeat;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-basis: calc((100% - 60px) / 3);
+    font-size: 24px;
+    line-height: 100%;
+    text-align: justify;
+    color: #000;
+    margin: 0 auto;
 }
 
-font-size: 24px;
-text-align: center;
-color: #000;
+.one{
+    background-image: url(../images/arrow-leftt.png);
+    background-size: 152px;
+   
+    }
+.two{
+        background-image: url(../images/bird-and-two-arrows.png);
+        background-size: 152px;
+    }
+.three{
+    background-image: url(../images/arrow-right.png);
+    background-size: 152px;
+    }
+
 
 .footer {
-    background-image:url(../images/man-on-bird.jpg);
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
     margin: 0 auto;
-    max-width: 1440px;
-    max-height: 223px;
-    
-}
-footer::after{
-    border-right: 2px splid var(--bg-main-color) solid;
+    width: 1440px;
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
 .footer-list {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 20px;
     text-align: justify;
-    color: #fff;
+    background-image: url(../images/small-line.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 689px;
+    background-position: 195px;
+    justify-content: space-between;
+    margin-top: 16px;
 }
-.copyright{
+.footer-lists {
+    margin-left: 46px;
+    margin-top: 15px;
+}
+.hero-list {
+    font-size: 20px;
+    background-image: url(../images/big-line.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 665px;
+    background-position: 125px;
+    justify-content: space-between;
+}
+.footer-copyright {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
-    text-align: justify;
-    color: #000000; 
-
+    color: #fff;
+    padding-left: 478px;
+}
+.footer-list-text {
+    color: var(--bg-main-color);
+}
+.hero-list-text {
+    color: var(--bg-main-color);
+    margin: 0;
+}
+.footer-list-link {
+    color: var(--bg-main-color);
+    
+}
+.hero-list-link {
+    color: var(--bg-main-color);
+}
+.container-second {
+    display: flex;
+    align-items: center;
+}
+.logo-text-footer {
+    display: contents;
+}
+.logo-text-footer::after {
+    content: '';
+    width: 1px;
+    height: 153px;
+    background-color: #fff;
+    display: inline-block;
+    margin-left: 80px;
 }
