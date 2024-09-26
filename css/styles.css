@@ -312,7 +312,7 @@ text-align: center;
 color: #000;
 
 .footer {
-    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
+    background-image:url(../images/man-on-bird.jpg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
@@ -321,7 +321,7 @@ color: #000;
     
 }
 footer::after{
-    
+    border-right: 2px splid var(--bg-main-color) solid;
 }
 .footer-list {
     font-family: var(--font-family);
