@@ -103,8 +103,8 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-height: 730px;
-padding-top: 180px;
+    height: 730px;
+    padding-top: 180px;
 }
 .hero-content{
     background-image: url(../images/arrow-left.png);
@@ -128,24 +128,21 @@ padding-top: 180px;
 .hero-text-bottom{
     margin-top: 40px;
 }
-
-
 .main-position{
     display: flex;
     justify-content: space-between;
 }
 .main-big-text-their {
-font-size: 20px;
-color: #fff;
+    font-size: 20px;
+    color: #fff;
 }
-
 .main-big-text-our {
-font-size: 20px;
-color: #fff;
+    font-size: 20px;
+    color: #fff;
 }
 .join-to-clan {
     border: 2px solid #26c7ea;
-    border-radius: 35px 0;
+    border-radius: 45px 0;
     width: 260px;
     height: 80px;
     background-color: var(--bg-button);
@@ -168,24 +165,24 @@ color: #fff;
     height: 350px;
     display: flex;
     justify-content: center;
-        max-width: 1440px;
+    max-width: 1440px;
     padding-top: 75px;
     padding-bottom: 10px;
     background-position: center 220px;
 }
 .tittle{
-font-size: 36px;
-font-weight: 400;
-text-align: justify;
-color: var(--secondary-tittle-color);
+    font-size: 36px;
+    font-weight: 400;
+    text-align: justify;
+    color: var(--secondary-tittle-color);
     margin: 0 auto;
     text-align: center;
 }
 .name {
-font-size: 24px;
-text-align: center;
-color: var(--dark-text-color);
-margin-top: 16px;
+    font-size: 24px;
+    text-align: center;
+    color: var(--dark-text-color);
+    margin-top: 16px;
 }
 .trailer {
     background-image: url(../images/women.jpg);
@@ -198,25 +195,21 @@ margin-top: 16px;
     
 }
 .trailer-text {
-border: 2px solid #26c7ea;
-border-radius: 35px 0;
-width: 260px;
-height: 80px;
-background-color: #0b0e66;
-font-family: var(--second-family);
-font-weight: 400;
-font-size: 24px;
-text-align: justify;
-color: #26c7ea;
-display: flex;
-justify-content: center;
-padding-top: 25px;
-margin: 0 auto;
+    border: 2px solid #26c7ea;
+    border-radius: 35px 0;
+    width: 260px;
+    height: 80px;
+    background-color: #0b0e66;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+    color: #26c7ea;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    margin: 0 auto;
 }
-
-    
-
-
 .learning {
     background-image: url(../images/lifting-world.jpg);
     background-repeat: no-repeat;
@@ -245,13 +238,6 @@ margin: 0 auto;
     justify-content: space-between;
     height: 240px;
 }
-    /* .learning-list-our{
-        margin-bottom: 120px;
-    } */
-/* .1{
-    background-image:url(../im)
-    }
-     */
 .learning-title {
     font-family: var(--second-family);
     font-size: 32px;
@@ -267,7 +253,6 @@ margin: 0 auto;
     text-align: center;
     color: #141414;
 }
-
 .learning-list-their {
     font-family: var(--second-family);
     font-size: 24px;
@@ -276,11 +261,9 @@ margin: 0 auto;
     color: #000;
     margin: 0 auto;
 }
-
 .one{
     background-image: url(../images/arrow-leftt.png);
-    background-size: 152px;
-   
+    background-size: 152px;  
     }
 .two{
         background-image: url(../images/bird-and-two-arrows.png);
@@ -290,8 +273,6 @@ margin: 0 auto;
     background-image: url(../images/arrow-right.png);
     background-size: 152px;
     }
-
-
 .footer {
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
     background-repeat: no-repeat;
